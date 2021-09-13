@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  bot-discord:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: always
+    volumes:
+      - ./cogs:/cogs
+      - ./main.py:/main.py
+      - ./requirements.txt:/requirements.txt
+      - ./config.yml:/config.yml

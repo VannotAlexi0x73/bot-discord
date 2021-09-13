@@ -1,0 +1,19 @@
+manager_role: "ROLE_1"
+dev_role: "ROLE_2"
+time_to_delete_msg: 5
+
+# Prod token is here
+token: "YOUR_TOKEN_HERE"
+
+# We have to use unicode to avoid yaml bug ...
+colors_list:
+  - "\U0001f534" # 🔴
+  - "\U0001f535" # 🔵
+  - "\U0001f518" # 🔘
+  - "\U0001f7e3" # 🟣
+  - "\U0001f7e1" # 🟡
+  - "\U0001f7e0" # 🟠
+  - "\U000026aa" # ⚪
+  - "\U000026ab" # ⚫
+  - "\U0001f7e2" # 🟢
+  - "\U0001f7e4" # 🟤
